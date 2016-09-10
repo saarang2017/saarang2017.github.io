@@ -287,7 +287,7 @@ app.controller("sponsCtrl",function ($scope,$http) {
               }
             $scope.logos = mixeddata;
           }).error(function(error){
-            toastr.error("Error", "Please reload the page!");
+            console.log(error)
           });
 
 });
