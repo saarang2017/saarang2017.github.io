@@ -247,7 +247,7 @@ app.controller("contactCtrl", function($scope) {
   });
 app.controller("sponsCtrl",function ($scope,$http) {
 
-  $http.get('http://erp.saarang.org/api/mobile/display_spons/').success(function(data){
+  $http.get('https://erp.saarang.org/api/mobile/display_spons/').success(function(data){
             var groupeddata=data.data.slice(0);
             var mixeddata=[];
             var mix=[];
@@ -269,7 +269,7 @@ app.controller("sponsCtrl",function ($scope,$http) {
               {
                 k=0;
                 mix.push(groupeddata[i]);
-                j=i;'http://erp.saarang.org/api/mobile/display_spons/'
+                j=i;
                 if(j!=groupeddata.length-1)
                 {
                 while(groupeddata[j].row_layout==groupeddata[j+1].row_layout && k<(groupeddata[i].row_layout-1))
