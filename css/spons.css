@@ -26,11 +26,11 @@
 .spons #spons_title:after {
   content: '';
   height: 95%;
-  width: 2px;
+  width: 4px;
   position: absolute;
   right: 0;
   bottom: 0em; 
-  background-color: #000000;
+  background-color: grey;
 }
 .spons .page_title{
 	position: absolute;

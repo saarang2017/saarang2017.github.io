@@ -27,11 +27,11 @@
 .gallery  #gallery_title:after {
   content: '';
   height: 90%;
-  width: 2px;
+  width: 4px;
   position: absolute;
   right: 0;
   bottom: 0em; 
-  background-color: #000000;
+  background-color: grey;
 }
 .gallery  .page_title{
 	position: absolute;
