@@ -26,7 +26,7 @@
 	<style type="text/css">
 	.parent
 	{
-  		width: 100%;
+  		width: 95vh;
   		border-bottom: 4px solid grey;
   		position: relative;
 	}
@@ -66,13 +66,14 @@
 		</div>
 		<!-- for mobile -->
 		<div class="row hidden-md hidden-lg">
-			<img style="z-index:599;margin:0 0 0 10%;height:55vh;width:80%" class="home_images img-responsive" src="imgs/new/1_page/logo.png">
+			<img style="z-index:599;margin-left:-5%;height:35vh;width:100%" class="home_images img-responsive" src="imgs/new/1_page/logo.png">
 		</div>
 		<!--  -->
 		<img style="z-index:499;top:13.5em;right:40%;height:70%;width:34%" class="home_images hidden-xs hidden-sm" src="imgs/new/1_page/rock_tree_cut.png">
 		<!-- for mobile -->
-		<img style="z-index:499;top:10.5em;right:35%;height:50%;width:34%" class="home_images hidden-md hidden-lg" src="imgs/new/1_page/rock_tree_cut.png">
+		<img style="z-index:499;top:50.5em;right:22%;height:50%;width:60%" class="home_images hidden-md hidden-lg" src="imgs/new/1_page/rock_tree_cut.png">
 		<!--  -->
+		<!-- Faries -->
 	    <img style="z-index:1199;" class="home_images" src="imgs/new/1_page/glow.png">
 	    <img id="light1" style="z-index:1079;" class="light_images" src="imgs/new/1_page/light_modified.png">
 	    <img id="light2" style="z-index:1089;" class="light_images" src="imgs/new/1_page/light_modified.png">
@@ -88,17 +89,26 @@
 	    <img id="light12" style="z-index:1021;" class="light_images" src="imgs/new/1_page/light_modified.png">
 	    <img id="light13" style="z-index:1031;" class="light_images" src="imgs/new/1_page/light_modified.png">
 	    <img id="light14" style="z-index:1033;" class="light_images" src="imgs/new/1_page/light_modified.png">
+	    <!-- Mist -->
 	    <img style="z-index:599;" class="home_images" src="imgs/new/1_page/mist_1.png">
 	    <img style="z-index:599;" class="home_images" src="imgs/new/1_page/mist_2.png">
-	    <img style="z-index:699;top:75vh;height:25%;width:100%" class="home_images" src="imgs/new/1_page/trees_1_cut.png">
-		<img style="z-index:899;top:75vh;height:25%;width:100%" class="home_images" src="imgs/new/1_page/trees_2_cut.png">
-		<img id="tree" style="z-index:999;top:75vh;height:25%;width:100%" class="home_images" src="imgs/new/1_page/trees_3_cut.png">
+	    <!-- Trees -->
+	    <img style="z-index:699;top:75vh;height:25%;width:100%" class="home_images hidden-xs hidden-sm" src="imgs/new/1_page/trees_1_cut.png">
+		<img style="z-index:899;top:75vh;height:25%;width:100%" class="home_images hidden-xs hidden-sm" src="imgs/new/1_page/trees_2_cut.png">
+		<img id="tree" style="z-index:999;top:75vh;height:25%;width:100%" class="home_images hidden-xs hidden-sm" src="imgs/new/1_page/trees_3_cut.png">
+		<!-- Trees mobile -->
+	    <img style="z-index:699;top:85vh;height:20%;width:100%" class="home_images hidden-md hidden-lg" src="imgs/new/1_page/trees_1_cut.png">
+		<img style="z-index:899;top:85vh;height:20%;width:100%" class="home_images hidden-md hidden-lg" src="imgs/new/1_page/trees_2_cut.png">
+		<img id="tree" style="z-index:999;top:85vh;height:20%;width:100%" class="home_images hidden-md hidden-lg" src="imgs/new/1_page/trees_3_cut.png">
 		<!-- <img style="z-index:9999;top:95vh;left:8%;height:5%;width:40%" class="home_images" src="imgs/new/1_page/scroll_down_cut_line.png"> -->
-		<img style="z-index:9999;top:96vh;left:49%;width:2%;height:3%" class="home_images scroll" src="imgs/new/1_page/scroll_down_cut_arrow.png">
+		<!-- Arrow -->
+		<img style="z-index:9999;top:96vh;left:49%;width:2%;height:3%" class="home_images scroll hidden-xs hidden-sm" src="imgs/new/1_page/scroll_down_cut_arrow.png">
+		<!-- Mobile Arrow -->
+		<img style="z-index:9999;top:100vh;left:49%;width:2%;height:1%" class="home_images scroll hidden-md hidden-lg" src="imgs/new/1_page/scroll_down_cut_arrow.png">
 		<!-- <img style="z-index:9999;top:95vh;right:8%;height:5%;width:40%" class="home_images" src="imgs/new/1_page/scroll_down_cut_line.png"> -->
 	</div>
 	<!-- About_us -->
-	<div class="about section" style="margin-top:2%;height:100vh;overflow-x:hidden">
+	<div class="about section" style="margin-top:2%;overflow:hidden">
 		<span class="cloud01">
 			<img src="imgs/new/About_us/clouds/01_new.png">
 		</span>
@@ -140,7 +150,7 @@
 		</div>
 		<div class="col-md-10 col-md-offset-0 col-xs-10 col-xs-offset-1">
 			<div class="row" id="images">
-				<div class="col-md-4 col-xs-4 hidden-xs" id="tree_img">
+				<div class="col-md-4 col-xs-4 hidden-xs hidden-sm" id="tree_img">
 					<img src="imgs/new/About_us/tree_new.png" style="height:60%;">
 				</div>
 				<div class="col-xs-12 col-md-8" id="pic_img">
@@ -161,7 +171,7 @@
 			</div>
 		</div>
 	</div>
-	<hr>
+	<br>
 	<!-- Spons -->
 	<div class="section spons" ng-controller="sponsCtrl" style="margin-top:2%;height:110vh;overflow-x:hidden">
 		<div class="col-md-2 hidden-sm hidden-xs" id="spons_title">
@@ -234,7 +244,7 @@
 			</div>
 		</div>
 	</div>
-	<hr>
+	<br>
 	<!-- Galery -->
 	<div class="section gallery" ng-controller="galleryCtrl">
 		<div class="row" style="width:100%;overflow-x:hidden">
@@ -266,15 +276,15 @@
 				<img src="imgs/new/gallery/pollen_cut.png" style="position:absolute;margin-top:150%;top:21em;left:50%">
 				<img src="imgs/new/gallery/pollen_cut.png" style="position:absolute;margin-top:150%;top:23em;left:30%">
 				<img src="imgs/new/gallery/pollen_cut.png" style="position:absolute;margin-top:150%;top:27em;left:60%">
-			<div class="col-xs-offset-1 col-xs-10 col-md-10 col-md-offset-0" style="height:95vh;overflow-y:hidden;">
+			<div class="col-xs-offset-1 col-xs-10 col-md-10 col-md-offset-0" style="height:95vh;overflow:hidden;">
 				<div class="row">
-					<div class="col-xs-12 left">
+					<div class="col-xs-12" style="margin-left:20px">
 		    			<h1 style="letter-spacing:3px;font-family: 'Oswald', sans-serif;">SAARANG memories...</h1>
 		    		</div>
 				</div>
 				<div id="main_area" style="height:82vh;overflow-y:hidden;overflow-x:hidden">
 			        <div class="row">
-			            <div class="col-sm-6" id="slider-thumbs" style="height:80vh;overflow-y:scroll">
+			            <div class="col-xs-12 col-md-6" id="slider-thumbs" style="height:80vh;overflow-y:scroll">
 			                <ul class="hide-bullets" ng-repeat="pic in pics">
 			                    <li class="col-sm-6">
 			                        <a class="thumbnail" ng-mouseover="show($index)" id="carousel-selector-{{$index}}">
@@ -284,7 +294,7 @@
 			                    </li>
 			                </ul>
 			            </div>
-			            <div class="col-sm-6 hidden-xs" style="width:50%;max-height:78%;position:absolute;right:0;top:40%;margin:-100px 0 0 -150px;overflow-y:scroll;overflow-x:hidden">
+			            <div class="col-md-6 hidden-xs hidden-sm" style="width:50%;max-height:78%;position:absolute;right:0;top:40%;margin:-100px 0 0 -150px;overflow-y:scroll;overflow-x:hidden">
 			                <div class="col-xs-12">
 	                            <div class="active item text-center">
 	                                <img style="margin:auto;height:120%;border-radius:5px;text-align: justify;" src="imgs/pics/{{selectedPic}}">
@@ -296,7 +306,7 @@
 			</div>
 		</div>
 	</div>
-	<hr>
+	<br>
 	<!-- Contact us -->
 	<div class="section contact" ng-controller="contactCtrl">
 		<div class="col-md-2 hidden-sm hidden-xs" id="contact_title" style="font-family: 'Oswald', sans-serif;">
